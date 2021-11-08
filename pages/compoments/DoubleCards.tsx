@@ -1,7 +1,6 @@
 import Image from 'next/dist/client/image';
 
 const DoubleCards = ({ ...DoubleCardsProps }) => {
-  console.log(DoubleCardsProps.index);
   return (
     <div className={`card-${DoubleCardsProps.class}`}>
       <div className="info">
