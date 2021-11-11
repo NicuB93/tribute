@@ -1,10 +1,10 @@
-import Navbar from './Navbar';
+import Navbar from '../Navbar';
 import Image from 'next/image';
-import headImg from '../assets/headImg.png';
+import Head from './styled';
 
-const Head = () => {
+const HeadPage = () => {
   return (
-    <div className="head">
+    <Head>
       <Navbar />
       <header>
         <div className="head-info">
@@ -34,8 +34,8 @@ const Head = () => {
           </div>
         </div>
       </header>
-    </div>
+    </Head>
   );
 };
 
-export default Head;
+export default HeadPage;

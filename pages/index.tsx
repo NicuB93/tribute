@@ -1,8 +1,8 @@
 import type { NextPage } from 'next';
-import Head from './compoments/Head';
-import Cards from './compoments/Cards';
+import Head from '../compoments/Head';
+import Cards from '../compoments/Cards';
 import Script from 'next/script';
-import Footer from './compoments/Footer';
+import Footer from '../compoments/Footer';
 
 const Home: NextPage = () => {
   return (

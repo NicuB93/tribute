@@ -5,14 +5,13 @@ body {
   padding: 0;
   margin: 0;
   font-family: Roboto, sans-serif;
-  background: #3a4a69;
+  background: #3a4a69 !important;
+}
+* {
+  margin: 0;
 }
 
 a {
   color: inherit;
   text-decoration: none;
 }
-/* 
-* {
-  box-sizing: border-box;
-} */

@@ -1,7 +1,8 @@
 import Image from 'next/dist/client/image';
+import Card from './styled';
 const SingleCard = ({ ...singleCardProps }) => {
   return (
-    <div className="single-card">
+    <Card>
       <div className="card">
         <p className="card-date-location">{singleCardProps.yearLocation}</p>
         <div className="card-info">{singleCardProps.info}</div>
@@ -25,7 +26,7 @@ const SingleCard = ({ ...singleCardProps }) => {
           More info on the wikipedia
         </a>
       </div>
-    </div>
+    </Card>
   );
 };
 
